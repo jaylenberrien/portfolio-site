@@ -6,11 +6,11 @@ export default function Projects () {
   return (
     <>
       <Nav />
-      <div id='Projects' className='bg-blue-950 text-white h-screen flex' >
+      <div id='Projects' className='bg-blue-950 text-white h-screen flex flex-col' >
         <h1>Projects</h1>
         <div className='mx-auto'>
           <div>
-            <img src='client\src\imgs\Screenshot (11).png' className='inline-block'/>
+            {/* <img src='client\src\imgs\Screenshot (11).png' className='inline-block'/> */}
             <div className='inline-block'>
               <h2>Wordle site</h2>
               <p>This is one of the first sites I made. It is my version of the game Wordle.
@@ -21,7 +21,7 @@ export default function Projects () {
             
           </div>
           <div>
-          <img src='client\src\imgs\Screenshot (12).png' className='inline-block'/>
+          {/* <img src='client\src\imgs\Screenshot (12).png' className='inline-block'/> */}
             <div className='inline-block'>
               <h2>Marvel site</h2>
               <p>I made this site to for an assignment, it's using an api to help you get information on your favorite 

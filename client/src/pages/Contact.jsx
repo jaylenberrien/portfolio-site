@@ -6,7 +6,7 @@ export default function Contact () {
   return (
     <>
       <Nav />
-      <div id='Contact' className='bg-blue-950 text-white h-screen flex'>
+      <div id='Contact' className='bg-blue-950 text-white h-screen flex flex-col'>
         <div className='mx-auto'>
           Contact me
         </div>
